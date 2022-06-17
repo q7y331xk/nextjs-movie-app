@@ -1,0 +1,22 @@
+@import 'styles/shared/vars';
+
+.wrapper {
+    background: tan;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    font-size: 32px;
+    margin-right: 20px;
+
+    &:nth-child(2) {
+        margin-right: 0;
+    }
+}
+
+.active {
+    color: blue;
+}
